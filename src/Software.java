@@ -10,4 +10,10 @@ public class Software extends Product {
         return "The operating systems are...";
     }
 
+    @Override
+    public boolean equals(double price){
+        System.out.println("this is an override from Software");
+        return this.price==price;
+    }
+
 }
